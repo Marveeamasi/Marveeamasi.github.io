@@ -11,7 +11,7 @@ margin:0;
 padding:0;
 }
 p{
-font-family:acme;
+font-family:'Acme',Sans-Serif;
 color:white;
 }
 a{
@@ -29,7 +29,7 @@ border-radius:100%;
 
 
 h1,h2,h3,h4,h5,h6{
-font-family:roboto;
+font-family: 'Roboto',Sans-Serif;
 }
 
 
@@ -64,7 +64,7 @@ margin:0;
 nav.navCont ul li a{
 text-decoration:none;
 color:#832626;
-font-family:acme;
+font-family:'Acme',Sans-Serif;
 }
 
 section{
@@ -83,7 +83,7 @@ text-align:center;
 height:100vh;
 }
 .logo{
-font-family:square;
+font-family:'Square Peg',cursive;
 position:absolute;
 font-size:5rem;
 opacity:0.7;
@@ -884,14 +884,14 @@ nav.navCont ul li:hover a.a {
 display:initial;
 position:absolute;
 right:0;
-font-family:updock;
+font-family:'Updock',cursive;
 font-size:20px;
 }
 nav.navCont ul li.active a.a {
 display:initial;
 position:absolute;
 right:0;
-font-family:updock;
+font-family:'Updock',cursive;
 font-size:20px;
 }
 
