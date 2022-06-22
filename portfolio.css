@@ -644,6 +644,7 @@ opacity:1;
 section#about{
 background:url("myImage2.jpg");
 object-fit:cover;
+background-repeat:none;
 height:100vh;
 }
 
@@ -661,7 +662,7 @@ background:rgba(0,0,0,.8);
 flex:1;
 width:200px;
 height:200px;
-border-radius:1%;
+border-radius:50%;
 object-fit:contain;
 }
 .aboutText{
