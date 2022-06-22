@@ -80,7 +80,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
-height:100vh;
+height:80vh;
 }
 .logo{
 font-family:'Square Peg',cursive;
@@ -399,7 +399,7 @@ flex-wrap:wrap;
 position:relative;
 width: 100%;
 max-width: 800px;
-height:100vh;
+height:80vh;
 overflow: hidden;
 }
 
@@ -413,7 +413,7 @@ overflow: hidden;
   position:absolute;
   width: 100%;
   max-width: 800px;
-  height: 100vh;
+  height: 80vh;
   transition: all 0.5s;
 }
 
@@ -437,7 +437,7 @@ flex-wrap:wrap;
 position:relative;
 width: 100%;
 max-width: 800px;
-height:100vh;
+height:80vh;
 overflow: hidden;
 }
 
@@ -451,7 +451,7 @@ overflow: hidden;
   position:absolute;
   width: 100%;
   max-width: 800px;
-  height: 100vh;
+  height: 80vh;
   transition: all 0.5s;
 }
 
@@ -474,7 +474,7 @@ flex-wrap:wrap;
 position:relative;
 width: 100%;
 max-width: 800px;
-height:100vh;
+height:80vh;
 overflow: hidden;
 }
 
@@ -488,7 +488,7 @@ overflow: hidden;
   position:absolute;
   width: 100%;
   max-width: 800px;
-  height: 100vh;
+  height: 80vh;
   transition: all 0.5s;
 }
 
@@ -659,6 +659,7 @@ opacity:1;
 section#about{
 background:url("myImage.jpg");
 object-fit:cover;
+height:80vh;
 }
 
 
@@ -702,6 +703,7 @@ background:url("laptop.jpg");
 object-fit:contain;
 text-align:center;
 flex-wrap:wrap;
+height:80vh;
 }
 .location{
 flex:1;
@@ -824,6 +826,7 @@ footer p{
 font-family:sans-serif;
 color:#ccc;
 }
+
 @media only screen and (max-width:480px){
 
 
