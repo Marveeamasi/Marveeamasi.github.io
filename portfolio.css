@@ -813,7 +813,7 @@ font-family:sans-serif;
 color:#ccc;
 }
 
-@media screen and (max-width:480px){
+@media screen and (-webkit-max-width:480px){
 
 
 
