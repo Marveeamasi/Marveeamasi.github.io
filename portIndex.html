@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport"content="width=device-width, initial-scale=1.0">
-
 <link href="portfolio.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -28,10 +25,12 @@
 <h1 class="logo">mVart</h1>
 <div class="homeTextCont">
 <h3 class="homeText Sm">a full-stack web developer</h3>
-<h2 class="homeText Lg">Welcome to my Portfolio</h2>
+<h2 class="homeText Lg">Welcome to my Website</h2>
 </div>
-<button class="homeBtn" onclick="initial()"><a href="#" >My Skills</a></button>
+<div class="hero">
 <img class="homeImg" src="fullUserImg.png" alt="user pics">
+<button class="homeBtn" onclick="initial()"> <a href="#" >My Skills</a></button>
+</div>
 <div class="skillCont">
 <div class="skill one">
 <img src="jsImg.png" alt="skill pics">
@@ -64,7 +63,7 @@
         <img
           src="colAppLw1.png"
           alt="" />
-        <div class="article">
+        <div class="articlei">
         
       <h2><span>Amazing COLOR PICKER Web App</span> Glimpse inside Desktop View</h2>
       
@@ -72,20 +71,20 @@
       </div>
       <div class="slidei">
         <img src="colAppLw2.png" alt="" />
-      <div class="article">
+      <div class="articlei">
       <h2><span>Very responsive for mobile devices and desktop</span> Desktop view</h2>
       <p></p>
       </div>
       </div>
       <div class="slidei">
         <img src="colAppSw1.png" alt="" />
-      <div class="article">
+      <div class="articlei">
       <h2><span>Easy way to get awesome mixures of gradient colors for your styling language</span> Mobile view</h2>
       </div>
       </div>
       <div class="slidei">
         <img src="colAppSw2.png" alt="" />
-      <div class="article">
+      <div class="articlei">
       <h2><span>Try'em out</span> Mobile View</h2>
       </div>
       </div>
@@ -98,25 +97,25 @@
         <img
           src="audioAppLw1.png"
           alt="" />
-        <div class="article">
+        <div class="articleii">
       <h2><span>For Music Lovers, MUSIC PLAYER Web App</span> Desktop view</h2>
         </div>
       </div>
       <div class="slideii">
         <img src="audioAppLw2.png" alt="" />
-      <div class="article">
+      <div class="articleii">
       <h2><span>Awesome responsive</span> Desktop view</h2>
       </div>
       </div>
       <div class="slideii">
         <img src="audioAppSw1.png" alt="" />
-      <div class="article">
+      <div class="articleii">
       <h2><span>Got cool jams and varieties of genres you could listen to</span> Mobile view</h2>
       </div>
       </div>
       <div class="slideii">
         <img src="audioAppSw2.png" alt="" />
-      <div class="article">
+      <div class="articleii">
       <h2><span>Get your headphones on</span> Mobile view</h2>
       </div>
       </div>
@@ -128,25 +127,25 @@
         <img
           src="movieAppLwDk.png"
           alt="project pics" />
-        <div class="article">
+        <div class="articleiii">
       <h2><span>MOVIE UPDATE Web App</span> DeskTop view on a nice dark mood</h2>
         </div>
       </div>
       <div class="slideiii">
         <img src="movieAppLwLt.png" alt="" />
-      <div class="article">
+      <div class="articleiii">
       <h2><span>Very responsive</span> Desktop view on lite mood</h2>
       </div>
       </div>
       <div class="slideiii">
         <img src="movieAppSwDk.png" alt="project pics" />
-      <div class="article">
+      <div class="articleiii">
       <h2><span>Find movie updates ,get trailers of latest movies</span> Mobile view on Dark mood</h2>
       </div>
       </div>
       <div class="slideiii">
         <img src="movieAppSwLt.png" alt="project pics" />
-      <div class="article">
+      <div class="articleiii">
       <h2><span>Get Started</span> Mobile view on lite mood</h2>
       </div>
       </div>
@@ -170,22 +169,25 @@ I also work with Angular, Typescript and Nestjs in building full stack web appli
 </section>
 <section id="contact">
 <div class="location">
-<div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=No%2050%20okporo%20street%20,rukpokwu%20,portharcourt,%20Nigeria&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}</style><a href="https://www.embedgooglemap.net">google maps in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div></div>
+<div class="mapouter map">
+<div class="gmap_canvas canvas">
+<iframe width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=No%2050%20okporo%20street%20,rukpokwu%20,portharcourt,%20Nigeria&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+<a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:200px;}</style><a href="https://www.embedgooglemap.net">google maps in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:200px;}</style></div></div>
 </div>
-<form name="contact" method="POST" action="/pages/success data-netlify="true">
+<form  method="post" action="<?php echo $_SERVER['PHP_SELF'];?>"  >
 <legend><label for="usernaneInput">Put a Username</label>
-<input id="usernameInput" type="text">
+<input id="usernameInput" username="fuser" type="text">
 </legend>
 <legend>
 <label>Add Email</label>
-<input id="emailInput" type="email">
+<input id="emailInput" email="femail" type="email">
 </legend>
 <legend>
 <label>Leave a Message</label>
-<textarea id="messageInput"></textarea>
+<textarea id="messageInput" message="fmessage"></textarea>
 </legend>
 <legend>
-<button type="submit" class="btn">Submit</button>
+<button type="submit" class="btn"><i class="fa fa-pen"><h1>SUBMIT</h1></i></button>
 </legend>
 </form>
 <div class="socialCont">
@@ -206,5 +208,32 @@ I also work with Angular, Typescript and Nestjs in building full stack web appli
 <footer>
 <p> © 2022 by mVart/Marvee Amasi</p></footer>
 <script src="portfolio.js"></script>
+
+
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['fuser'];
+    $email = $_POST['femail'];
+    $message = $_POST['fmessage'];
+    if (empty($username)) {
+        echo "Username is empty";
+    } else {
+        echo $username;
+    }
+    if (empty($email)) {
+    echo "email is empty";
+    } else {
+    echo $email;
+    }
+    if (empty($message)) {
+    echo "message is empty";
+    } else {
+    echo $message;
+    }
+}
+?>
+
+
 </body>
 </html>
