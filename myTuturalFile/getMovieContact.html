@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+<meta charset="UTF-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@500&family=Updock&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="all.min.css">
+<link href="getMovie.css" rel="stylesheet">
+<title>MY Movie</title>
+</head>
+
+<body>
+
+
+<header class="headerComponent">
+<span class="parentSpan"><span class="navLogoI">get</span><span class="navLogoII">Movies</span></span>
+<nav>
+<ul class="navList">
+<div><li class="navListItem"><a href="getMovieHome.html" >Home</li><i class="fa fa-home"></i></a></div>
+<div><li class="navListItem"><a href="getMovieAbout.html" >About</li><i class="fa fa-book"></i></a></div>
+<div><li class="navListItem mainMenu"><a href="getMovieContact.html" >Contact</li><i class="fa fa-phone"></i></a></div>
+<div class="menuBar" onclick="toggle();"><i class="fa fa-bars"></i></div>
+</ul>
+</nav>
+</header>
+
+<section class="sideBar">
+<div class="deleteBar" onclick="toggle();">×</div>
+<ul class="navList">
+<div onclick="mode();moodLogic();"><li class="navListItem mode" >Lighten</li><i class="fa fa-pen"></i></div>
+<div><li class="navListItem "><a href="getMovieHome.html" >Home</li><i class="fa fa-home"></i></a></div>
+<div><li class="navListItem"><a href="getMovieAbout.html" >About</li><i class="fa fa-book"></i></a></div>
+<div><li class="navListItem mainMenu"><a href="getMovieContact.html" >Contact</li><i class="fa fa-phone"></i></a></div>
+<div><li class="navListItem"><a href="getMovieAll.html" >Movies</li><i class="fa fa-video"></i></a></div>
+<div class="menuBar hidden"><i class="fa fa-bars"></i></div>
+</ul>
+</section>
+
+<section class="socialComponent">
+
+<div class="submitText">
+<p>cormfirmation message</p>
+</div>
+
+
+<h2>Contact us via these handles</h2>
+<div class="socialIconWrapper">
+<a href="https://wa.me/+2348093760021" ><i class="fab fa-whatsapp"></i></a>
+<a href="https://free.facebook.com/marvee.amasi?ref_component=mfreebasic_home_header&ref_page=MFriendsCenterRequestsController" ><i class="fab fa-facebook"></i></a>
+<a href="https://www.instagram.com/marvee__art/" ><i class="fab fa-instagram"></i></a>
+
+</div>
+</section>
+
+<form class="formComponent" >
+
+
+<div class="inputWrapper"><i class="fa fa-user"></i>
+<input id="name" type="text" placeholder="What's your name..">
+</div>
+<div class="inputWrapper"><i class="fa fa-message"></i>
+<input id="message" type="text" placeholder="Leave a message..">
+</div>
+<div class="inputWrapper"><i class="fa fa-phone"></i>
+<input id="phone" type="tel" placeholder="Drop your phone number..">
+</div>
+<div id="submitBtn" class="btn" onclick="handleSubmit();onOff();">Send message</div>
+
+</form>
+
+
+<footer>getMovies best website © 2022</footer>
+
+<script src="getMovie.js"></script>
+</body>
+</html>

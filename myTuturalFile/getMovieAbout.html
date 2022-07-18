@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+<meta charset="UTF-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@500&family=Updock&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="all.min.css">
+<link href="getMovie.css" rel="stylesheet">
+<title>MY Movie</title>
+</head>
+
+<body>
+
+<header class="headerComponent">
+<span class="parentSpan"><span class="navLogoI">get</span><span class="navLogoII">Movies</span></span>
+<nav>
+<ul class="navList">
+<div><li class="navListItem"><a href="getMovieHome.html" >Home</li><i class="fa fa-home"></i></a></div>
+<div><li class="navListItem mainMenu"><a href="getMovieAbout.html" >About</li><i class="fa fa-book"></i></a></div>
+<div><li class="navListItem"><a href="getMovieContact.html" >Contact</li><i class="fa fa-phone"></i></a></div>
+<div class="menuBar" onclick="toggle();"><i class="fa fa-bars"></i></div>
+</ul>
+</nav>
+</header>
+
+<section class="sideBar">
+<div class="deleteBar" onclick="toggle();">×</div>
+<ul class="navList">
+<div onclick="mode();moodLogic();"><li class="navListItem mode" >Lighten</li><i class="fa fa-pen"></i></div>
+<div><li class="navListItem"><a href="getMovieHome.html" >Home</li><i class="fa fa-home"></i></a></div>
+<div><li class="navListItem mainMenu"><a href="getMovieAbout.html" >About</li><i class="fa fa-book"></i></a></div>
+<div><li class="navListItem"><a href="getMovieContact.html" >Contact</li><i class="fa fa-phone"></i></a></div>
+<div><li class="navListItem"><a href="getMovieAll.html" >Movies</li><i class="fa fa-video"></i></a></div>
+<div class="menuBar hidden"><i class="fa fa-bars"></i></div>
+</ul>
+</section>
+
+
+<section class="aboutComponent">
+<h1>getMovie Services</h1>
+<div></div>
+<img src="iframeBg.jpeg" alt="about Pics">
+<article class="aboutArticle">
+In getMovies ,we bring you latest movie update ,we try our best to make our visitors satisfied by our content.
+This is a tutorial app so not much content would be on for download. Movies also would be downloaded here , with the help of sabishare website.
+All thanks to Marvee Amasi ,the web developer of this website. You can locate us to find where we reside on the google map location below.
+</article>
+
+<article class="aboutArticle">
+In getMovies ,we bring you latest movie update ,we try our best to make our visitors satisfied by our content.
+This is a tutorial app so not much content would be on for download. Movies also would be downloaded here , with the help of sabishare website.
+All thanks to Marvee Amasi ,the web developer of this website. You can locate us to find where we reside on the google map location below.
+</article>
+
+<article class="aboutArticle">
+In getMovies ,we bring you latest movie update ,we try our best to make our visitors satisfied by our content.
+This is a tutorial app so not much content would be on for download. Movies also would be downloaded here , with the help of sabishare website.
+All thanks to Marvee Amasi ,the web developer of this website. You can locate us to find where we reside on the google map location below.
+</article>
+
+</section>
+
+<section class="locationComponent"><div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=en&amp;q=No 50 okporo street, Rukpokwu, Portharcourt&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.kokagames.com/fnf-friday-night-funkin-mods/">FNF Mods</a></div><style>.mapouter{position:relative;text-align:right;width:300px;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:300px;height:300px;}.gmap_iframe {width:300px!important;height:300px!important;}</style></div></section>
+
+<footer>getMovies best website © 2022</footer>
+
+<script src="getMovie.js"></script>
+</body>
+</html>
