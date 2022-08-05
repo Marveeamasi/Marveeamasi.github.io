@@ -115,10 +115,6 @@ width:100%;
 .hero{
 flex:1;
 width:100%;
-Display:flex;
-Justify-content:center;
-Align-items:center;
-Height:100vh;
 }
 .homeBtn{
 width:200px;
