@@ -4,14 +4,14 @@ html{
 scroll-behavior:smooth;
 }
 body{
-overflow:hidden;
+overflow-x:hidden;
 background:black;
 box-sizing:border-box;
 margin:0;
 padding:0;
 }
 p{
-font-family:acme;
+font-family:'Acme', sans-serif;
 color:white;
 }
 a{
@@ -29,7 +29,7 @@ border-radius:100%;
 
 
 h1,h2,h3,h4,h5,h6{
-font-family:roboto;
+font-family:'Roboto', sans-serif;
 }
 
 
@@ -41,7 +41,7 @@ width:100vw;
 height:15vh;
 z-index:999;
 text-align:center;
-overflow:hidden;
+overflow-x:hidden;
 padding:0;
 margin:0;
 background-color:rgba(0,0,0,.8);
@@ -64,18 +64,18 @@ margin:0;
 nav.navCont ul li a{
 text-decoration:none;
 color:#832626;
-font-family:acme;
+font-family:'Acme', sans-serif;
 }
 
 section{
 width:100vw;
-overflow:hidden;
+overflow-x:hidden;
 }
 
 section#home{
 width:100vw;
 border:none;
-overflow:hidden;
+overflow-x:hidden;
 position:relative;
 display:flex;
 flex-wrap: wrap;
@@ -87,7 +87,7 @@ padding-top:10px;
 }
 
 .logo{
-font-family:cursive;
+font-family:'Acme',sans-serif;
 position:absolute;
 font-size:5rem;
 opacity:0.7;
@@ -405,7 +405,7 @@ position:relative;
 width: 100%;
 max-width: 800px;
 height:85vh;
-overflow: hidden;
+overflow-x: hidden;
 }
 
 .slidei{
@@ -476,7 +476,7 @@ position:relative;
 width: 100%;
 max-width: 800px;
 height:85vh;
-overflow: hidden;
+overflow-x: hidden;
 }
 
 .slideiii{
@@ -941,14 +941,14 @@ nav.navCont ul li:hover a.a {
 display:initial;
 position:absolute;
 right:0;
-font-family:updock;
+font-family:'Updock', cursive;
 font-size:20px;
 }
 nav.navCont ul li.active a.a {
 display:initial;
 position:absolute;
 right:0;
-font-family:updock;
+font-family:'Updock', cursive;
 font-size:20px;
 }
 
