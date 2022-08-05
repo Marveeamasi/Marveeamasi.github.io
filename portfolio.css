@@ -1,4 +1,4 @@
-It@import url("fonts.css");
+@import url("fonts.css");
 
 html{
 scroll-behavior:smooth;
@@ -87,10 +87,10 @@ padding-top:10px;
 }
 
 .logo{
-font-family:'Acme',sans-serif;
+font-family: 'Square Peg', cursive;
 position:absolute;
 font-size:5rem;
-opacity:0.7;
+opacity:0.5;
 bottom:50%;
 z-index:2;
 background:#FF0000;
@@ -385,7 +385,6 @@ display:flex;
 align-items:center;
 justify-content:center;
 flex-direction:column;
-background-image:url("project.jpeg");
 }
 
 main{
