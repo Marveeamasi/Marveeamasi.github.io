@@ -736,21 +736,23 @@ text-align:center;
 flex-wrap:wrap;
 }
 .location{
+justify-content:center;
+align-items: center;
 flex:1;
 padding:10px;
 display:flex;
 flex-direction:column;
-
+border-radius:50%;
 }
 
 div.loaction div.map{
 flex:1;
-
+border-raduis:50%;
 }
 
 div.location div.map div.canvas{
-height:200px;
-width:200px;
+height:100px;
+width:100px;
 }
 
 div.location div.map div.canvas iframe{
