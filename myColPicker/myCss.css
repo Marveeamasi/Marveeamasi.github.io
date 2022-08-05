@@ -1,0 +1,32 @@
+body{
+box-sizing:border-box;
+}
+input ,button {
+display:block;
+margin:auto;
+padding:10px;
+}
+input{
+margin-top:30px;
+border:none;
+box-shadow:0 0 0 rgba(0,0,0,.5), -0.08px -0.09px 3px rgba(0,0,0,1);
+border-radius:7px;
+
+}
+button{
+margin-top:30px;
+background:radial-gradient(orange,blue);
+border:none;
+color:white;
+border-radius:7px;
+}
+button.red{
+background:radial-gradient(orange,red);
+}
+
+
+@media screen and (min-width:500px){
+body{
+display:flex;
+}
+}
