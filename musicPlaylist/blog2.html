@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my blog</title>
+<link rel="stylesheet" href="Download/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+<link href="blog2.css" rel="stylesheet">
+</head>
+<body>
+
+<!--........ nav section ........-->
+
+<nav>
+<div class="navCont">
+ <ul>
+  <li class="list"><a href="#home" >
+  <span class="icon"><i class="fas fa-home"></i></span>
+  <span class="text">Home</span>
+  </a></li>
+  <li class="list"><a href="#main" >
+  <span class="icon"><i class="fas fa-music"></i></span>
+  <span class="text">Music</span>
+  </a></li>
+  <li class="list"><a href="#contact" >
+  <span class="icon"><i class="fas fa-eye"></i></span>
+  <span class="text">About</span>
+  </a></li>
+  <li class="list"><a href="#form" onclick="displayForm()">
+  <span class="icon"><i class="fas fa-pen"></i></span>
+  <span class="text">Sign-in</span>
+  </a></li>
+ </ul>
+</div>
+</nav>
+
+<!------x-------header section-------x----->
+<section id="home">
+ <div class="headCont">
+ <div class="headTexts">
+  <h2 >mVart</h2>
+  <h1 id="area">know what's the new new</h1>
+  <h3>Get to listen to online playlist of latest hot jams</h3>
+  <button class="btn" onclick="displayGetStarted()"><a href="#getStarted">Get started</a></button>
+</div>
+
+<div class="category" id="getStarted">
+ <div class="musicList i" id="i">
+ <a href="#main" ><span class="listText"> Get Rock</span><span class="listIcon"><i class="fas fa-guitar"></i></span></a>
+ </div>
+ <div class="musicList ii" id="ii">
+ <a href="#main" ><span class="listText"> Get Jazz</span><span class="listIcon"><i class="fas fa-headset"></i></span></a>
+ </div>
+ <div class="musicList iii" id="iii">
+ <a href="#main" ><span class="listText"> Get HipPop</span><span class="listIcon"><i class="fas fa-drum"></i></span></a>
+ </div>
+ <div class="musicList iv" id="iv">
+ <a href="#main" ><span class="listText"> Get R&B's</span><span class="listIcon"><i class="fas fa-microphone"></i></span></a>
+ </div>
+ </div>
+ </div>
+ </section>
+<section class="main" id="main"> 
+
+<div class="leftPart">
+<img id="trackImg" >
+<div class="volume">
+<div class="numberVol">
+<p class="volumeShow" id="volumeShow">90</p>
+<i class="fa fa-volume-up" aria-hidden="true" id="volumeIcon" onclick="muteSound()"></i>
+</div>
+<input type="range" max="100" min="0" value="90" onchange="volumeChange()" id="volume">
+</div>
+</div>
+
+<div class="rightPart">
+<div class="showSongNo">
+<p id="present">1</p><p>:</p><p id="total">5</p>
+</div>
+<div class="artistTitle">
+<p id="songTitle">Song Title</p>
+<p id="artistName">Artist Name</p>
+</div>
+</div>
+
+<div class="middlePart">
+<div class="playSide">
+<button onclick="previousSong()" id="pre"><i class="fa fa-step-backward"></i></button>
+<button onclick="justPlaySong()" id="play"><i class="fa fa-play"></i></button>
+<button onclick="nextSong()" id="next"><i class="fa fa-step-forward"></i></button>
+</div>
+
+<div class="duration">
+<input type="range" max="100" min="0" value="0" id="durationSlider" onchange="durationSlider()">
+</div>
+<button id="auto" onclick="autoPlaySwitch()">Auto Play<i class="fa-solid fa-circle-notch"></i></button>
+</div>
+</section>
+<footer>
+<section class="footerContainer" id="contact">
+        <div class="about">
+        <h3>about</h3>
+       <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentiums aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum s repellat</p>
+        </div>
+        <div class="contact">
+        <h3>Contact Us</h3>
+        <div class="contactIconCont">
+        <div class="contactIcon">
+        <a href="#" class="face"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="contactIcon">
+        <a href="#" class="inst"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contactIcon">
+        <a href="#" class="yout"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="contactIcon">
+        <a href="#" class="what"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        </div>
+        </div>
+      </section>
+</footer>
+<form id="form" class="form">
+<legend>Please Sign-up here </legend>
+<input type="text" id="input" placeholder="              USERNAME">
+<input type="submit" value="go" class="input">
+</form>
+<script src="blog2.js"></script>
+</body>
+</html>
