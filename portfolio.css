@@ -288,7 +288,7 @@ div.skill.one img{
 border:4px solid #FFD300;
 }
 .one{
-animation:js 20s infinite ease;
+animation:js 5s infinite ease;
 }
 .htmlRed{
 background:#FF0023;
@@ -297,7 +297,7 @@ div.skill.two img{
 border:4px solid #FF0023;
 }
 .two{
-animation:html 20s infinite ease;
+animation:html 5s infinite ease;
 }
 .cssBlue{
 background:#022FFC;
@@ -306,7 +306,7 @@ div.skill.three img{
 border:4px solid #022FFC;
 }
 .three{
-animation:css 20s infinite ease;
+animation:css 5s infinite ease;
 }
 .reactBlue{
 background:#02EDFC;
@@ -315,7 +315,7 @@ div.skill.four img{
 border:4px solid #02EDFC;
 }
 .four{
-animation:react 20s infinite ease;
+animation:react 5s infinite ease;
 }
 .nodejsGreen{
 background:#02B558;
@@ -324,7 +324,7 @@ div.skill.five img{
 border:4px solid #02B558;
 }
 .five{
-animation:nodejs 20s infinite ease;
+animation:nodejs 5s infinite ease;
 }
 
 
