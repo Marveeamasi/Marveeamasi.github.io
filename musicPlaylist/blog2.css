@@ -20,6 +20,10 @@ text-decoration:none;
 }
 
 body{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
 position:relative;
 width:100vw;
 margin:0;
@@ -197,7 +201,7 @@ width:100vw;
 margin-top:100px;
 }
 section div.headCont{
-background-image:url("GuByU4.jpg");
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQv4Hu3G4tAM89MRhU1cYuII87-otKMMzOPg&usqp=CAU");
 background-size:cover;
 height:100vh;
 display:flex;
