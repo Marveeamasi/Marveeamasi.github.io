@@ -69,28 +69,28 @@ let track = document.createElement('audio');
 
 let allSongs = [
 {
-  name: "God no go shame us ",
-  path: "PrinceEmmanuel.mp3",
-  img: "Download/img.jpeg",
-  singer: "Darrel Walls"
+  name: "Pressure",
+  path: "PrinceEmmaPressure.mp3",
+  img: "img.jpeg",
+  singer: "Prince Emmanuel"
 },
 {
-  name: "Fountains",
-  path: "Download/judikayFountain.mp3",
-  img: "Download/imgi.jpeg",
-  singer: "Judikay"
+  name: "Vibes on vibes",
+  path: "AyraVibes.mp3",
+  img: "imgi.jpeg",
+  singer: "Ayra"
 },
 {
-  name: "Joy",
-  path: "Download/joePraise.mp3",
-  img: "Download/imgii.jpeg",
-  singer: "joePraise"
+  name: "Ginger",
+  path: "BurnaBoyGinger.mp3",
+  img: "imgii.jpeg",
+  singer: "Burna boy ft wizkid"
 },
 {
-  name: "Million",
-  path: "Download/taurenWells.mp3",
-  img: "Download/imgiii.jpeg",
-  singer: "Tauren Wells"
+  name: "Jaiye",
+  path: "PsquareJaiye.mp3",
+  img: "imgiii.jpeg",
+  singer: "P-square"
 }
 ];
 
