@@ -124,7 +124,7 @@ color:green;
 li a{
 padding:10px 10px;
 color:#49123E;
-font-family:acme;
+font-family:'Acme';
 cursor:pointer;
 width:100%;
 }
@@ -151,7 +151,7 @@ padding-left:15px;
 animation:changeColor 5s infinite ease;
 font-size:1.5rem;
 font-weight:1000;
-font-family:roboto;
+font-family:'Roboto';
 cursor:pointer;
 }
 
@@ -246,7 +246,7 @@ div.firstpart h3{
 padding:3px 10px;
 border-radius:10px;
 color:white;
-font-family:acme;
+font-family:'Acme';
 background-color:rgba(0,0,0,.5);
 }
 
@@ -260,7 +260,7 @@ opacity:.5;
 button.btn a{
 color:white;
 font-size:1.5rem;
-font-family:acme;
+font-family:'Acme';
 cursor:pointer;
 }
 button.btn:hover{
@@ -318,7 +318,7 @@ padding:5px;
 }
 
 .catTextContainer h3{
-font-family:acme;
+font-family:'Acme';
 color:white;
 }
 
@@ -358,7 +358,7 @@ position:relative;
 width: 100%;
 max-width: 800px;
 height:100vh;
-overflow: hidden;
+overflow-x: hidden;
 }
 
 .slide{
@@ -488,7 +488,7 @@ color:#fff;
 font-size:15px;
 flex:1;
 margin:10px
-font-family:acme;
+font-family:sans-serif;
 }
 
 .contactIconCont{
@@ -611,7 +611,7 @@ position:relative;
 width: 100%;
 max-width: 800px;
 height:100vh;
-overflow: hidden;
+overflow-x: hidden;
 background:#161616;
 }
 
