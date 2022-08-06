@@ -691,15 +691,14 @@ color:green;
 
 
 .footerContainer{
-padding-top:30vh;
 display:flex;
-flex-direction:row;
-flex-wrap:wrap;
+flex-direction:column;
 text-align:center;
 justify-content:center;
 align-items:center;
 height:100%;
 background:black;
+width:100vw;
 }
 
 div.contact h3{
