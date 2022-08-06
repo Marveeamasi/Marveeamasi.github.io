@@ -20,6 +20,7 @@ text-decoration:none;
 }
 
 body{
+overflow-x: hidden;
 display:flex;
 flex-direction:column;
 justify-content: center;
@@ -37,7 +38,7 @@ z-index:3;
 width:320px;
 height:200px;
 top:25%;
-background:rgba(0,0,0,.6);
+background:rgba(0,0,0,.85);
 border-radius:10px;
 text-align:center;
 display:none;
