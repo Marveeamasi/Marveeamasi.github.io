@@ -224,9 +224,9 @@ section#home{
 height:100%;
 }
 div.firstpart{
-background-image:url("Download/theheader.jpeg");
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHFNRyFyX--y5_kVpyM7LRwDoxNH3afl5RLy0wgBLLH-E-l76tU4cK239&s=10");
 background-repeat:none;
-
+object-fit:cover;
 background-size:100;
 height:450px;
 padding:0;
@@ -239,7 +239,7 @@ align-items:center;
 }
 div.firstpart h1{
 color:white;
-font-family:roboto;
+font-family:'Roboto';
 font-size:2.5rem;
 }
 div.firstpart h3{
