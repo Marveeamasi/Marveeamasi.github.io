@@ -11,6 +11,7 @@ menuBar.addEventListener('click', function() {
  x.className === "navContainer";
  }
  
+
  menuExit.style = "display:initial";
 
 menuBar.style = "display:none";
@@ -112,38 +113,38 @@ logo.addEventListener('click', function(e) {
  
  
   
- setInterval(function(){ii.innerHTML = `<img src="Download/indian2.jpeg" alt="post-2" class="catImg" >`;
+ setInterval(function(){ii.innerHTML = `<img src="indian2.jpeg" alt="post-2" class="catImg" >`;
  },30000);
  
- setInterval(function(){ii.innerHTML = `<img src="Download/indian3.jpeg" alt="post-3" class="catImg" >`;
+ setInterval(function(){ii.innerHTML = `<img src="indian3.jpeg" alt="post-3" class="catImg" >`;
  },40000);
  
- setInterval(function(){ii.innerHTML = `<img src="Download/indian.jpeg" alt="post-1" class="catImg" >`;
+ setInterval(function(){ii.innerHTML = `<img src="indian.jpeg" alt="post-1" class="catImg" >`;
  },50000);
  
- setInterval(function(){i.innerHTML = `<img src="Download/comedy2.jpeg" alt="post-2" class="catImg" >`;
+ setInterval(function(){i.innerHTML = `<img src="comedy2.jpeg" alt="post-2" class="catImg" >`;
  },20000);
  
- setInterval(function(){i.innerHTML = `<img src="Download/comedy3.jpeg" alt="post-3" class="catImg" >`;
+ setInterval(function(){i.innerHTML = `<img src="comedy3.jpeg" alt="post-3" class="catImg" >`;
  },30000);
  
- setInterval(function(){i.innerHTML = `<img src="Download/comedy.jpeg" alt="post-1" class="catImg" >`;
+ setInterval(function(){i.innerHTML = `<img src="comedy.jpeg" alt="post-1" class="catImg" >`;
  },40000);
  
- setInterval(function(){iii.innerHTML = `<img src="Download/crime2.jpeg" alt="post-2" class="catImg" >`;
+ setInterval(function(){iii.innerHTML = `<img src="crime2.jpeg" alt="post-2" class="catImg" >`;
  },10000);
  
- setInterval(function(){iii.innerHTML = `<img src="Download/crime3.jpeg" alt="post-3" class="catImg" >`;
+ setInterval(function(){iii.innerHTML = `<img src="crime3.jpeg" alt="post-3" class="catImg" >`;
  },20000);
  
- setInterval(function(){iii.innerHTML = `<img src="Download/crime.jpg" alt="post-1" class="catImg" >`;
+ setInterval(function(){iii.innerHTML = `<img src="crime.jpg" alt="post-1" class="catImg" >`;
  },30000);
  
- setInterval(function(){iv.innerHTML = `<img src="Download/cartoon2.jpeg" alt="post-2" class="catImg" >`;
+ setInterval(function(){iv.innerHTML = `<img src="cartoon2.jpeg" alt="post-2" class="catImg" >`;
  },50000);
  
- setInterval(function(){iv.innerHTML = `<img src="Download/cartoon3.jpeg" alt="post-3" class="catImg" >`;
+ setInterval(function(){iv.innerHTML = `<img src="cartoon3.jpeg" alt="post-3" class="catImg" >`;
  },60000);
  
- setInterval(function(){iv.innerHTML = `<img src="Download/cartoon.jpeg" alt="post-1" class="catImg" >`;
+ setInterval(function(){iv.innerHTML = `<img src="cartoon.jpeg" alt="post-1" class="catImg" >`;
  },70000);
