@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;700&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&family=Square+Peg&family=Updock&display=swap" rel="stylesheet">
-<title>mVart portfolio website</title>
+<title>My Portfolio</title>
 </head>
 <body>
 
@@ -25,6 +25,8 @@
 
 <section id="home">
 <h1 class="logo">mVart</h1>
+<div class="house">
+
 <div class="homeTextCont">
 <h3 class="homeText Sm">a full-stack web developer</h3>
 <h2 class="homeText Lg">Welcome to my Website</h2>
@@ -32,6 +34,7 @@
 <div class="hero">
 <img class="homeImg" src="fullUserImg.png" alt="user pics">
 <button class="homeBtn" onclick="initial()"> <a href="#" >My Skills</a></button>
+</div>
 </div>
 <div class="skillCont">
 <div class="skill one">
@@ -166,28 +169,31 @@ Proudly Nigerian.
 </article>
 </section>
 <section id="contact">
+  <div class="houseII">
 <div class="location">
 <div class="mapouter map">
 <div class="gmap_canvas canvas">
 <iframe class="locateRound" width="100" height="100" id="gmap_canvas" src="https://maps.google.com/maps?q=portharcourt,%20Nigeria&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 <a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:100px;width:100px;}</style><a href="https://www.embedgooglemap.net">google maps in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100px;width:100px;}</style></div></div>
 </div>
-<form  method="post" action="<?php echo $_SERVER['PHP_SELF'];?>"  >
-<legend><label for="usernaneInput">Put a Username</label>
-<input id="usernameInput" username="fuser" type="text">
+<form  id="myForm" >
+<legend><label for="usernameInput">Put a Username</label>
+<input id="usernameInput" name="usernameInput" type="text">
 </legend>
 <legend>
-<label>Add Email</label>
-<input id="emailInput" email="femail" type="email">
+<label for="emailInput">Add Email</label>
+<input id="emailInput" name="emailInput" type="email">
 </legend>
 <legend>
-<label>Leave a Message</label>
-<textarea id="messageInput" message="fmessage"></textarea>
+<label for="messageInput">Leave a Message</label>
+<textarea id="messageInput" name="messageInput"></textarea>
 </legend>
 <legend>
 <button type="submit" class="btn"><i class="fa fa-pen"><h1>SUBMIT</h1></i></button>
 </legend>
+<div class="message"></div>
 </form>
+</div>
 <div class="socialCont">
 <h1>Visit my github repository and find most of my projects </h1>
 <a href="https://github.com/Marveeamasi" ><button class="btn gitBtn"><i class="fab fa-github"></i></button></a>
@@ -198,7 +204,7 @@ Proudly Nigerian.
 <a href="https://www.instagram.com/marvee__art/" ><button class="btn instBtn"><i class="fa-brands fa-instagram"></i></button></a>
 <div class="whatsappCont">
 <h1>Contact me on whatsapp</h1>
-<a href="https://wa.me/+2348093760021" ><button class="btn whatBtn"><i class="fa-brands fa-whatsapp"></i></button></div>
+<a href="https://wa.me/2348093760021" ><button class="btn whatBtn"><i class="fa-brands fa-whatsapp"></i></button></div>
 </div>
 </div>
 </div>
@@ -206,31 +212,6 @@ Proudly Nigerian.
 <footer>
 <p> © 2022 by mVart/Marvee Amasi</p></footer>
 <script src="portfolio.js"></script>
-
-
-
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['fuser'];
-    $email = $_POST['femail'];
-    $message = $_POST['fmessage'];
-    if (empty($username)) {
-        echo "Username is empty";
-    } else {
-        echo $username;
-    }
-    if (empty($email)) {
-    echo "email is empty";
-    } else {
-    echo $email;
-    }
-    if (empty($message)) {
-    echo "message is empty";
-    } else {
-    echo $message;
-    }
-}
-?>
 
 
 </body>
