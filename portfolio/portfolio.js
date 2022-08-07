@@ -201,3 +201,43 @@ prevSlideiii.addEventListener("click", function () {
 
 
 
+// PHP BACKEND
+
+var myForm = document.getElementById("myForm");
+
+myForm.addEventListener("submit", function(e){
+  e.preventDefault();
+  const formData = new FormData(this);
+  const searchParams = new URLSearchParams();
+  
+  for(const pair of formData){
+    searchParams.append(pair[0],pair[1]);
+  }
+  
+  fetch("message.php", {
+    method: "post",
+    body: searchParams
+  }).then(function(res){
+    return res.text();
+  }).then(function(text){
+    console.log(text);
+  }).catch(function(err){
+    console.log(err)
+  })
+  
+  var I = document.querySelector("#usernameInput");
+    var II = document.querySelector("#emailInput");
+    var III = document.querySelector("#messageInput");
+    
+    I.value = "";
+    II.value = "";
+    III.value = "";
+    
+  var pop =  document.querySelector(".message");
+    if(!I.value || !II.value || !III.value){
+    pop.innerText="Please fill in all fields";
+    
+    }else{
+    pop.innerText="Thank you for texting";
+    }
+});
