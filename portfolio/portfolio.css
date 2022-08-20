@@ -452,7 +452,6 @@ text-align:center;
 justify-content:center;
 position:relative;
 width: 100%;
-max-width: 800px;
 height:85vh;
 overflow-x: hidden;
 }
@@ -488,7 +487,6 @@ text-align:center;
 justify-content:center;
 position:relative;
 width: 100%;
-max-width: 800px;
 height:85vh;
 overflow: hidden;
 }
@@ -523,7 +521,6 @@ text-align:center;
 justify-content:center;
 position:relative;
 width: 100%;
-max-width: 800px;
 height:85vh;
 overflow-x: hidden;
 }
@@ -559,7 +556,6 @@ text-align:center;
 justify-content:center;
 position:relative;
 width: 100%;
-max-width: 800px;
 height:85vh;
 overflow-x: hidden;
 }
@@ -595,7 +591,6 @@ text-align:center;
 justify-content:center;
 position:relative;
 width: 100%;
-max-width: 800px;
 height:85vh;
 overflow-x: hidden;
 }
