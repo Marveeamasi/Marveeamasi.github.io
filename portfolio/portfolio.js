@@ -249,6 +249,58 @@ prevSlideiv.addEventListener("click", function () {
 });
 
 
+// Select all slides
+const slidesv = document.querySelectorAll(".slidev");
+
+// loop through slides and set each slides translateX property to index * 100% 
+slidesv.forEach((x, i) => {
+  x.style.transform = `translateX(${i * 100}%)`;
+});
+
+
+// select next slide button
+const nextSlidev = document.querySelector(".rightArrowv");
+
+// current slide counter
+let currentSlidev = 0;
+// maximum number of slides
+let maxSlidev = slidesv.length - 1;
+
+// add event listener and navigation functionality
+nextSlidev.addEventListener("click", function () {
+  // check if current slide is the last and reset current slide
+  if (currentSlidev === maxSlidev) {
+    currentSlidev = 0;
+  } else {
+    currentSlidev++;
+  }
+
+//   move slide by -100%
+  slidesv.forEach((x, i) => {
+    x.style.transform = `translateX(${100 * (i - currentSlidev)}%)`;
+  });
+});
+
+// select prev slide button
+const prevSlidev = document.querySelector(".leftArrowv");
+
+// add event listener and navigation functionality
+prevSlidev.addEventListener("click", function () {
+  // check if current slide is the first and reset current slide to last
+  if (currentSlidev === 0) {
+    currentSlidev = maxslidev;
+  } else {
+    currentSlidev--;
+  }
+
+  //   move slide by 100%
+  slidesv.forEach((x, i) => {
+    x.style.transform = `translateX(${100 * (i - currentSlidev)}%)`;
+  });
+});
+
+
+
 
 // PHP BACKEND
 
